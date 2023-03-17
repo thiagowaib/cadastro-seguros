@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { Observable } from 'rxjs';
+import { Seguro } from 'src/app/models/Seguro';
+import { SeguroService } from 'src/app/services/seguro.service';
 
 @Component({
   selector: 'app-listar-seguros',
@@ -6,5 +9,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./listar-seguros.component.scss']
 })
 export class ListarSegurosComponent {
+
+  public seguros$?: Observable<Seguro[]>;
+
+  constructor (
+    private seguroService: SeguroService
+  ) {}
+
+  ngOnInit() {
+    this.seguros$ = this.seguroService.listar();
+  }
 
 }

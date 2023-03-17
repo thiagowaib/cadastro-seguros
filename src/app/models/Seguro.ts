@@ -1,6 +1,8 @@
 import { MarcaCarro } from "./MarcaCarro";
 
 export class Seguro {
+    id!: string;
+
     // Dados Carro
     marcaCarro!: MarcaCarro;
     modeloCarro!: string;
