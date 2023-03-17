@@ -1,5 +1,5 @@
 # [PWA] Cadastro de Seguros
-<img src="https://assets-blog.hostgator.com.br/wp-content/uploads/2020/03/13-PWA-sao-o-futuro-da-web-mobile-2.webp" width="80%" alt="PWA Banner"/>
+<img src="https://cdn3.notifyvisitors.com/blog/wp-content/uploads/2021/02/PWA-BUILDER-TOP-10-FEATURES-FOR-BUSINESS-ADVANTAGEBanner-image-1.jpg" width="100%" alt="PWA Banner"/>
 
 > Repositório para o PWA desenvolvido durante o minicurso "[Construindo Progressive Web Apps](https://www.udemy.com/share/102Qic3@bbqFWSXHaZVlPcrwbK737TBLrtzlVeNBXztyxu9eTS00CDczWM4Yaohbs5wKqcHC/ "Construindo Progressive Web Apps")" da Udemy.
 
